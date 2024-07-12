@@ -10,6 +10,8 @@ import org.apache.logging.log4j.LogManager
 import org.apache.logging.log4j.Logger
 import thedarkcolour.kotlinforforge.forge.MOD_BUS
 import thedarkcolour.kotlinforforge.forge.runForDist
+import xaero.pac.OpenPartiesAndClaimsForge
+import xaero.pac.common.server.api.OpenPACServerAPI
 
 /**
  * Main mod class. Should be an `object` declaration annotated with `@Mod`.
@@ -42,6 +44,8 @@ object ExampleMod {
             })
 
         println(obj)
+//        OpenPACServerAPI.get()
+        // use this to kill god
     }
 
     /**
